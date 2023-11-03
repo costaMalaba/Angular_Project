@@ -1,0 +1,92 @@
+<div>
+  <button type="button" class="btn btn-warning mt-4 fw-bold btn-lg" data-bs-toggle="modal"
+    data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+    EDIT
+  </button>
+
+  <button (click)="deleteAc(user.user_id)" class="btn btn-danger mt-4 btn-lg fw-bold ms-3">
+    DELETE ACCOUNT
+  </button>
+
+  <div class="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 fw-bold text-info" id="exampleModalLabel">
+            Edit Your Credentias Here
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form [formGroup]="userForm">
+            <div class="mb-3">
+              <label htmlFor="first_name" class="col-form-label fw-bold">
+                First Name:
+              </label>
+              <input type="text" formControlName="first_name" value={{user.first_name}} class="form-control" id="first_name"/>
+            </div>
+
+            <div class="mb-3">
+              <label htmlFor="last_name" class="col-form-label fw-bold">
+                Last Name:
+              </label>
+              <input type="text" formControlName="last_name" value={{user.last_name}} class="form-control" id="last_name"/>
+            </div>
+
+            <div class="mb-3">
+              <label htmlFor="user_password" class="col-form-label fw-bold">
+                Password:
+              </label>
+              <input type="password" formControlName="user_password" value={{user.user_password}} class="form-control" id="user_password"/>
+            </div>
+
+            <div class="mb-3">
+              <label htmlFor="gender" class="col-form-label fw-bold">
+                Gender:
+              </label>
+              <select class="form-select text-center" formControlName="gender"  value={{user.gender}} id="gender">
+                <option class="text-muted" defaultValue="Uknown">
+                  Select Here
+                </option>
+                <option value="M">MALE</option>
+                <option value="F">FEMALE</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label htmlFor="dob" class="col-form-label fw-bold">
+                Birh Date:
+              </label>
+              <input type="date" formControlName="dob" value={{date}} class="form-control" id="dob"/>
+            </div>
+
+            <div class="mb-3">
+              <label htmlFor="address" class="col-form-label fw-bold">
+                Address:
+              </label>
+              <input type="address" formControlName="address" value={{user.address}} class="form-control" id="address" />
+            </div>
+
+            <div class="mb-3">
+              <label htmlFor="email" class="col-form-label fw-bold">
+                Email:
+              </label>
+              <input type="email" formControlName="user_email" value={{user.user_email}} class="form-control" id="email"/>
+            </div>
+
+            <div class="mb-3">
+              <label htmlFor="mobile" class="col-form-label fw-bold">
+                Mobile:
+              </label>
+              <input type="tel" formControlName="mobile" value={{user.mobile}} class="form-control" id="mobile"/>
+            </div>
+
+            <button type="button" (click)="editUser(user.user_email)" class="btn btn-success">
+              UPDATE
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

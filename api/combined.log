@@ -1,0 +1,59 @@
+{"level":"info","message":{"ip":"::1","method":"OPTIONS","path":"/login/auth"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth"},"service":"user-activity-logger"}
+{"activity":"Authentication failed!!","level":"error","message":"Error logging activity","service":"user-activity-logger","user_email":"costantineyohana1999@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth"},"service":"user-activity-logger"}
+{"activity":"Authentication failed!!","level":"error","message":"Error logging activity","service":"user-activity-logger","user_email":"costantineyohana1999@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth"},"service":"user-activity-logger"}
+{"activity":"Authentication failed!!","level":"error","message":"Error logging activity","service":"user-activity-logger","user_email":"costantineyohana1999@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"OPTIONS","path":"/login/auth"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth"},"service":"user-activity-logger"}
+{"activity":"Authentication failed!!","level":"error","message":"Error logging activity","service":"user-activity-logger","user_email":"admincosta@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth"},"service":"user-activity-logger"}
+{"activity":"Authentication failed!!","level":"error","message":"Error logging activity","service":"user-activity-logger","user_email":"admincosta@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth"},"service":"user-activity-logger"}
+{"activity":"Authentication failed!!","level":"error","message":"Error logging activity","service":"user-activity-logger","user_email":"admincosta@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth"},"service":"user-activity-logger"}
+{"activity":"Login Successful!!","level":"info","message":"User activity logged","service":"user-activity-logger","user_email":"admincosta@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"GET","path":"/user/view"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"GET","path":"/user/view/admincosta@gmail.com"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"GET","path":"/user/view/admincosta@gmail.com"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"GET","path":"/user/view"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"OPTIONS","path":"/login/auth"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth"},"service":"user-activity-logger"}
+{"activity":"Authentication failed!!","level":"error","message":"Error logging activity","service":"user-activity-logger","user_email":"costantineyohana1999@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth"},"service":"user-activity-logger"}
+{"activity":"Authentication failed!!","level":"error","message":"Error logging activity","service":"user-activity-logger","user_email":"costantineyohana1999@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth"},"service":"user-activity-logger"}
+{"activity":"Authentication failed!!","level":"error","message":"Error logging activity","service":"user-activity-logger","user_email":"costantineyohana1999@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"OPTIONS","path":"/login/auth"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth"},"service":"user-activity-logger"}
+{"activity":"Authentication failed!!","level":"error","message":"Error logging activity","service":"user-activity-logger","user_email":"costantineyohana1999@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"OPTIONS","path":"/login/auth"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth"},"service":"user-activity-logger"}
+{"activity":"Authentication failed!!","level":"error","message":"Error logging activity","service":"user-activity-logger","user_email":"admincosta@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth"},"service":"user-activity-logger"}
+{"activity":"Login Successful!!","level":"info","message":"User activity logged","service":"user-activity-logger","user_email":"admincosta@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"GET","path":"/user/view"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"GET","path":"/user/view/admincosta@gmail.com"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"GET","path":"/user/view/admincosta@gmail.com"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"GET","path":"/user/view"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"GET","path":"/user/view/admincosta@gmail.com"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"GET","path":"/user/view/admincosta@gmail.com"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"GET","path":"/user/view"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"OPTIONS","path":"/login/auth"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth"},"service":"user-activity-logger"}
+{"activity":"Invalid email or password","level":"error","message":"Error logging activity","service":"user-activity-logger","user_email":"ss"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth/"},"service":"user-activity-logger"}
+{"activity":"Authentication failed!!","level":"error","message":"Error logging activity","service":"user-activity-logger","user_email":"costantineyohana1999@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth/"},"service":"user-activity-logger"}
+{"activity":"Authentication failed!!","level":"error","message":"Error logging activity","service":"user-activity-logger","user_email":"costantineyohana1999@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth/"},"service":"user-activity-logger"}
+{"activity":"Login Successful!!","level":"info","message":"User activity logged","service":"user-activity-logger","user_email":"admincosta@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth/"},"service":"user-activity-logger"}
+{"activity":"Login Successful!!","level":"info","message":"User activity logged","service":"user-activity-logger","user_email":"admincosta@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth/"},"service":"user-activity-logger"}
+{"activity":"Login Successful!!","level":"info","message":"User activity logged","service":"user-activity-logger","user_email":"admincosta@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth/"},"service":"user-activity-logger"}
+{"activity":"Login Successful!!","level":"info","message":"User activity logged","service":"user-activity-logger","user_email":"admincosta@gmail.com"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth/"},"service":"user-activity-logger"}
+{"level":"info","message":{"ip":"::1","method":"POST","path":"/login/auth/"},"service":"user-activity-logger"}

@@ -1,0 +1,42 @@
+<div class="container-fluid vh-100 d-flex justify-content-center align-items-center" style="background-color: #2E4374;">
+    <header class="fixed-top text-center shadow-lg" style="background-color: #7C81AD;">
+        <h1 class="h-txt py-3">Web Application</h1>
+    </header>
+
+    <div class="card border-0 shadow-lg w-50 py-4" style="background-color: #4B527E;">
+        <div class="card-body d-flex justify-content-center align-items-center">
+            <form [formGroup]="userForm" (ngSubmit)="login()" class="text-center">
+                <div class="input-group mb-4">
+                    <span class="input-group-text"><i class="bi bi-envelope-fill fs-3"></i></span>
+                    <div class="form-floating">
+                        <input type="email" formControlName="user_email" placeholder="Email"
+                            class="form-control fs-4 border-2 " />
+                        <label for="user_email">Email</label>
+                    </div>
+                </div>
+                <div class="input-group mb-4">
+                    <span class="input-group-text"><i class="bi bi-key-fill fs-3"></i></span>
+                    <div class="form-floating">
+                        <input type="password" formControlName="user_password" placeholder="Password"
+                            class="form-control fs-4 border-2" />
+                        <label for="user_password">Password</label>
+                    </div>
+                </div>
+                <button class="btn btn-success text-dark fw-bold mb-4 border-dashed">
+                    Login
+                </button>
+
+                <div class="mb-4">
+                    <a [routerLink]="['/resetpassword']" class="btn btn-warning text-dark fw-bold">Forgot Password</a>
+                </div>
+
+                <span>
+                    <p>
+                        Don't Have Account?
+                        <app-user-register></app-user-register>
+                    </p>
+                </span>
+            </form>
+        </div>
+    </div>
+</div>

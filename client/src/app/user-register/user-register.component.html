@@ -1,0 +1,57 @@
+<button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"
+    data-bs-whatever="@mdo">Register Here</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered ">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Registration Form</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="useForm">
+                    <div class="mb-3">
+                        <label for="first_name" class="col-form-label fw-bold ">First Name:</label>
+                        <input type="text" formControlName="first_name" class="form-control" id="first_name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="last_name" class="col-form-label fw-bold ">Last Name:</label>
+                        <input type="text" formControlName="last_name" class="form-control" id="last_name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="col-form-label fw-bold ">Password:</label>
+                        <input type="password" formControlName="user_password" class="form-control" id="password">
+                    </div>
+                    <div class="mb-3">
+                        <label for="gender" class="col-form-label fw-bold ">Gender:</label>
+                        <select formControlName="gender" class="form-select text-center " id="gender">
+                            <option class="text-muted">Select Here</option>
+                            <option value="M">MALE</option>
+                            <option value="F">FEMALE</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="dob" class="col-form-label fw-bold ">Birth Date:</label>
+                        <input type="date" formControlName="dob" class="form-control text-center " id="dob">
+                    </div>
+                    <div class="mb-3">
+                        <label for="address" class="col-form-label fw-bold ">Address:</label>
+                        <input type="address" formControlName="address" class="form-control" id="address">
+                    </div>
+                    <div class="mb-3">
+                        <label for="user_email" class="col-form-label fw-bold ">Email:</label>
+                        <input type="email" formControlName="user_email" class="form-control" id="user_email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mobile" class="col-form-label fw-bold ">Mobile:</label>
+                        <input type="tel" formControlName="mobile" class="form-control" id="mobile">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button (click)="createUser()" class="btn btn-success">Register</button>
+            </div>
+        </div>
+    </div>
+</div>

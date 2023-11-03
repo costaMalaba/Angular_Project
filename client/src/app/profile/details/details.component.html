@@ -1,0 +1,33 @@
+<div class="text-center col-8 fs-4 pt-4 container">
+    <img class="rounded-circle mb-4 shadow dp" src={{DP}} alt="Picture"
+        style="width: 150px; height: 150px; border: 3px dashed  blue">
+    <div class="text-start">
+        <p>
+            Full Name:
+            <strong class="text-capitalize">{{user.first_name + " " + user.last_name}}</strong>
+        </p>
+        <hr style="border: 2px solid green" />
+        <p>
+            Gender: <strong>{{user.gender}}</strong>
+        </p>
+        <hr style="border: 2px solid green" />
+        <p>
+            Birth Date:
+            <strong>{{date}}</strong>
+        </p>
+        <hr style="border: 2px solid green" />
+        <p>
+            Address: <strong>{{user.address}}</strong>
+        </p>
+        <hr style="border: 2px solid green" />
+        <p>
+            Email: <strong>{{user.user_email}}</strong>
+        </p>
+        <hr style="border: 2px solid green" />
+        <p>
+            Mobile: <strong>{{user.mobile}}</strong>
+        </p>
+        <hr style="border: 2px solid green" />
+    </div>
+    <app-edit></app-edit>
+</div>

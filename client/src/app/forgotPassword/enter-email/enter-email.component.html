@@ -1,0 +1,23 @@
+<div class="container-fluid d-flex justify-content-center align-items-center vh-100" style="background-color: #2E4374;">
+    <div class="card border-0 shadow-lg w-50 py-4" style="background-color: #4B527E;">
+        <div class="card-header text-white text-center">
+            <h1>FORGOT PASSWORD</h1>
+        </div>
+        <div class="card-body d-flex justify-content-center align-items-center">
+            <form [formGroup]="resetForm" (ngSubmit)="sendLink()" class="text-center">
+                <div class="input-group mb-4">
+                    <span class="input-group-text fs-3"><i class="bi bi-envelope-fill"></i></span>
+                    <div class="form-floating">
+                    <input type="email" formControlName="user_email" placeholder="Enter Email"
+                        class="form-control border-2"
+                        id="user_email" />
+                        <label for="user_email">Email</label>
+                    </div>
+                </div>
+                <button class="btn btn-primary text-dark fw-bold">
+                    SEND RESET EMAIL
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
