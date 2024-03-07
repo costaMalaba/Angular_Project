@@ -1,6 +1,7 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgxSpinnerModule } from 'ngx-spinner';
 
 import { ToastrModule } from 'ngx-toastr';
 import { AppRoutingModule } from './app-routing.module';
@@ -42,11 +43,13 @@ import { ResetPasswordComponent } from './forgotPassword/reset-password/reset-pa
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
+    NgxSpinnerModule,
     ToastrModule.forRoot({
       timeOut: 3000,
       progressBar: true
     })
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [ApiserviceService],
   bootstrap: [AppComponent]
 })

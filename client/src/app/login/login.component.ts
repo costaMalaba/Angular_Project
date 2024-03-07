@@ -3,6 +3,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { ApiserviceService } from '../apiservice.service';
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
+import { NgxSpinnerService } from 'ngx-spinner';
 
 @Component({
   selector: 'app-login',
@@ -11,10 +12,14 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class LoginComponent implements OnInit {
 
-  constructor(private service: ApiserviceService, private router: Router, private toastr: ToastrService) {}
+  constructor(private service: ApiserviceService, private router: Router, private toastr: ToastrService, private spinner: NgxSpinnerService) {}
 
   ngOnInit(): void {
-
+    this.spinner.show().then(() => {
+      setTimeout(() => {
+        this.spinner.hide();
+      }, 8000);
+    });   
   }
 
   errormsg: any;
